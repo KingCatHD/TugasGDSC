@@ -1,0 +1,42 @@
+*{
+    font-family: cursive;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Judul {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 252, 252);
+    margin: 0em;
+    padding: 0em;
+    border: solid;
+}
+
+.comment {
+    margin: 0em;
+}
+button:hover {
+    background-color: crimson;
+}
+
+.list {
+    color: transparent;
+    
+    
+}
+
+.link {
+    color: white;
+}
+
+.img {
+    margin-bottom: 1em;
+}
